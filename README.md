@@ -2,8 +2,8 @@
 
 Com o NodeJs instalado clone o repositório do Github.
 
-- git clone
-- cd test-econverse:
+- git clone https://github.com/EuderAlves/teste-front-end.git
+- cd test-econverse
 - ✨ Em seguida, instale suas dependências com npm install✨
 - Para iniciar o servidor, execute npm start no seu terminal
 
