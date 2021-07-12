@@ -1,0 +1,45 @@
+$blue: #041e50;
+$gray: #a5a5a5;
+
+.brands {
+  text-align: center;
+
+  button {
+    cursor: pointer;
+  }
+
+  h2 {
+    font-size: 25px;
+    margin-bottom: 15px;
+    color: $blue;
+    text-transform: uppercase;
+    font-weight: 400;
+
+    span {
+      font-weight: 700;
+    }
+  }
+
+  p {
+    font-size: 16px;
+    color: $gray;
+  }
+
+  .slideBrands {
+    height: 51.54px;
+    margin: 90.5px 0 125px 0;
+    padding: 0 5%;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .slide {
+    padding: 0 5%;
+    width: 100%;
+    max-width: 1142px;
+    display: flex;
+    justify-content: space-between;
+  }
+}

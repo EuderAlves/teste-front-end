@@ -1,0 +1,45 @@
+.top {
+  background-color: #041e50;
+}
+
+.headerTop {
+  color: white;
+  text-transform: uppercase;
+  max-width: 1142px;
+  height: 37px;
+  margin: 0 auto;
+  padding: 0 5%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.headerTop li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+.headerTop li img {
+  margin-right: 10px;
+}
+
+.headerTop .lineVert {
+  height: 20px;
+  border-right: 1px solid rgba(255, 255, 255, 0.4);
+}
+/*# sourceMappingURL=style.css.map */

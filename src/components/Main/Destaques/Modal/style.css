@@ -1,0 +1,100 @@
+.bgModal {
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.bgModal .modal {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  justify-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #ffffff;
+  position: relative;
+  width: 770px;
+  height: 353px;
+  border-radius: 5px;
+}
+
+.bgModal .modal .closeModal {
+  position: absolute;
+  top: 15.2px;
+  right: 27.2px;
+  cursor: pointer;
+}
+
+.bgModal .modal .infoModal {
+  text-align: start;
+  color: #041e50;
+  margin-right: 56px;
+}
+
+.bgModal .modal .infoModal .titleProdModal {
+  font-size: 20px;
+  font-weight: 400;
+  margin-bottom: 21px;
+}
+
+.bgModal .modal .infoModal .priceProdModal {
+  font-size: 20px;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+
+.bgModal .modal .infoModal .descProdMdal {
+  font-size: 10px;
+  font-weight: 400;
+  color: #222222;
+  margin-bottom: 20px;
+}
+
+.bgModal .modal .infoModal .moreDetModal {
+  margin-bottom: 20px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.bgModal .modal .infoModal .moreDetModal a {
+  color: #041e50;
+  text-decoration: underline;
+  font-size: 12px;
+  font-weight: 400;
+  letter-spacing: 1.5px;
+}
+
+.bgModal .modal .infoModal .moreDetModal button {
+  margin-left: 4px;
+}
+
+.bgModal .modal .infoModal .addCarModal {
+  width: 164px;
+  height: 40px;
+  padding: 14px 24px;
+  background-color: #041e50;
+  color: #ffffff;
+  font-size: 11px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+/*# sourceMappingURL=style.css.map */

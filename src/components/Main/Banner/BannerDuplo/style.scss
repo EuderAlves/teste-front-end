@@ -1,0 +1,28 @@
+.bannerDoble {
+  display: flex;
+  width: 100%;
+  height: 386px;
+
+  .bannerImg {
+    position: relative;
+    z-index: 1;
+
+    img {
+      filter: brightness(60%);
+      width: 100%;
+      height: 386px;
+    }
+
+    .descBanner {
+      text-align: center;
+      position: absolute;
+      top: 0;
+      width: 100%;
+      height: 386px;
+
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+  }
+}

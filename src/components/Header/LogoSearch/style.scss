@@ -1,0 +1,86 @@
+$blue: #041e50;
+
+@mixin flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.headerLogoSearch {
+  color: $blue;
+  height: 75px;
+  max-width: 1142px;
+  margin: 0 auto;
+  padding: 0 5%;
+  @include flex;
+
+  .inputArea {
+    @include flex;
+    padding: 0 10px;
+    width: 340px;
+    border: 1px solid rgba($blue, 0.4);
+    border-radius: 5px;
+    height: 41px;
+    font-size: 9px;
+  }
+
+  .phone {
+    @include flex;
+    width: 112px;
+    font-size: 10px;
+  }
+
+  .myAccount {
+    @include flex;
+    width: 126.54px;
+    text-transform: uppercase;
+    height: 23.09px;
+
+    .helloName {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 23.09px;
+
+      h2 {
+        font-size: 10px;
+        font-weight: 700;
+      }
+
+      span {
+        font-size: 7px;
+      }
+    }
+
+    img:last-child {
+      align-self: flex-start;
+      margin-top: 5px;
+    }
+  }
+
+  .car {
+    width: 77px;
+    background-color: $blue;
+    height: 104px;
+    color: white;
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    img {
+      margin-bottom: 4px;
+    }
+
+    h2 {
+      font-size: 10px;
+      margin-bottom: 4px;
+    }
+
+    span {
+      font-size: 10px;
+    }
+  }
+}

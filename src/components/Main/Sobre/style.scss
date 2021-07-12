@@ -1,0 +1,22 @@
+$blue: #041e50;
+.about {
+  text-align: center;
+  max-width: 1124px;
+  padding: 0 5%;
+  margin: 0 auto;
+
+  h2 {
+    text-transform: uppercase;
+    font-size: 26px;
+    font-weight: 700;
+    color: $blue;
+    margin-bottom: 33px;
+  }
+
+  p {
+    font-family: "Poppins", sans-serif;
+    font-size: 12px;
+    font-weight: 300;
+    margin-bottom: 106px;
+  }
+}

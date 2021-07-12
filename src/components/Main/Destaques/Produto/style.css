@@ -1,0 +1,100 @@
+.produto {
+  max-width: 216px;
+  max-height: 264px;
+}
+
+.produto .imgQuickView {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.produto .imgQuickView .imgProduct img {
+  max-width: 216px;
+  height: 162px;
+}
+
+.produto .imgQuickView .quickView {
+  display: none;
+  position: absolute;
+  bottom: 0;
+  width: 68px;
+  height: 49px;
+}
+
+.produto .imgQuickView .quickView button {
+  cursor: pointer;
+  position: relative;
+  bottom: 5px;
+  padding: 9px;
+  background-color: #041e50;
+  border-radius: 50%;
+}
+
+.produto .imgQuickView .quickView button img {
+  width: 14.56px;
+  height: 14.56px;
+}
+
+.produto .imgQuickView .quickView p {
+  font-size: 11px;
+  color: #041e50;
+}
+
+.produto .titleProd {
+  font-size: 15px;
+  font-weight: 700;
+  color: #041e50;
+}
+
+.produto .descProd {
+  margin: 10px 0;
+  font-size: 10px;
+  font-weight: 300;
+  color: #222222;
+}
+
+.produto .priceProd {
+  font-size: 18px;
+  font-weight: 700;
+  color: #041e50;
+}
+
+.produto:hover {
+  -webkit-box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.16);
+          box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.16);
+}
+
+.produto:hover .imgQuickView .imgProduct {
+  position: relative;
+  bottom: 10px;
+}
+
+.produto:hover .imgQuickView .imgProduct .grad {
+  pointer-events: none;
+  min-height: 100px;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(255, 255, 255, 0)), to(white));
+  background: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, white 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+
+.produto:hover .imgQuickView .imgProduct img {
+  max-width: 216px;
+  height: 162px;
+}
+
+.produto:hover .imgQuickView .quickView {
+  display: block;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,6 @@
+.product {
+  padding: 0 5%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 42px 62px;
+}

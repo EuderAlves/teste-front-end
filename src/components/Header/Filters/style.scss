@@ -1,0 +1,40 @@
+$blue: #041e50;
+
+@mixin flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filters {
+  border-top: 1px solid #c6c6c6;
+}
+
+.headeFilters {
+  height: 42px;
+  max-width: 1142px;
+  margin: 0 auto;
+  padding: 0 5%;
+  color: $blue;
+  text-transform: uppercase;
+  padding-right: 120px;
+
+  font-size: 10px;
+  font-weight: 700;
+
+  @include flex;
+
+  li {
+    height: 100%;
+    cursor: pointer;
+
+    @include flex;
+    img {
+      margin-left: 5px;
+    }
+  }
+
+  li:hover {
+    border-bottom: 3px solid $blue;
+  }
+}

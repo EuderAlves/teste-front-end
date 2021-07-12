@@ -1,0 +1,29 @@
+.footerSecond {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+  height: 36px;
+  background-color: white;
+}
+
+.footerSecond .text {
+  width: 503px;
+  height: 24px;
+  margin: 10px 300px 20px 177px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  color: #010101;
+}
+
+.footerSecond img {
+  margin-right: 12px;
+}
+
+.footerSecond .img2 {
+  margin-top: 5px;
+}
+/*# sourceMappingURL=footerSecond.css.map */

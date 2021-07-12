@@ -1,0 +1,33 @@
+$blue: #041e50;
+
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  height: 142px;
+  cursor: pointer;
+
+  img {
+    filter: contrast(40%);
+    padding: 8px;
+    border: 1px solid rgba(black, 0);
+  }
+
+  h3 {
+    color: $blue;
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 1px;
+    font-size: 14px;
+  }
+}
+
+.card:hover {
+  img {
+    filter: contrast(100%);
+
+    border: 1px solid $blue;
+    border-radius: 50%;
+  }
+}

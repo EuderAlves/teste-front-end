@@ -1,0 +1,18 @@
+$blue: #041e50;
+
+.button3 {
+  height: 45px;
+  background-color: white;
+  color: $blue;
+  border: 1px solid $blue;
+  font-size: 13px;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 15px 45px;
+  border-radius: 5px;
+}
+
+.button3:hover {
+  background-color: $blue;
+  color: white;
+}

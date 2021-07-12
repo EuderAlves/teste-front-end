@@ -1,0 +1,90 @@
+$blue: #041e50;
+$black: #222222;
+$white: #ffffff;
+
+.bgModal {
+  background-color: rgba(black, 0.4);
+  position: fixed;
+  z-index: 5;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .modal {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+
+    background-color: $white;
+    position: relative;
+    width: 770px;
+    height: 353px;
+    border-radius: 5px;
+
+    .closeModal {
+      position: absolute;
+      top: 15.2px;
+      right: 27.2px;
+      cursor: pointer;
+    }
+
+    .infoModal {
+      text-align: start;
+      color: $blue;
+      margin-right: 56px;
+
+      .titleProdModal {
+        font-size: 20px;
+        font-weight: 400;
+        margin-bottom: 21px;
+      }
+
+      .priceProdModal {
+        font-size: 20px;
+        font-weight: 900;
+        margin-bottom: 20px;
+      }
+
+      .descProdMdal {
+        font-size: 10px;
+        font-weight: 400;
+        color: $black;
+        margin-bottom: 20px;
+      }
+
+      .moreDetModal {
+        margin-bottom: 20px;
+        display: flex;
+        align-items: center;
+
+        a {
+          color: $blue;
+          text-decoration: underline;
+          font-size: 12px;
+          font-weight: 400;
+          letter-spacing: 1.5px;
+        }
+
+        button {
+          margin-left: 4px;
+        }
+      }
+
+      .addCarModal {
+        width: 164px;
+        height: 40px;
+        padding: 14px 24px;
+        background-color: $blue;
+        color: $white;
+        font-size: 11px;
+        font-weight: 700;
+        border-radius: 5px;
+      }
+    }
+  }
+}

@@ -1,0 +1,116 @@
+#comments {
+  margin-bottom: -40px;
+  color: #041e50;
+}
+
+#comments .slider {
+  height: 200px !important;
+}
+
+#comments .slider .previousButton polygon,
+#comments .slider .nextButton polygon {
+  fill: #041e50;
+}
+
+@media (max-width: 800px) {
+  #comments .slider {
+    height: 300px !important;
+  }
+}
+
+#comments .wrapper {
+  padding: 0 140px;
+}
+
+@media (max-width: 700px) {
+  #comments .wrapper {
+    padding: 0 25px;
+  }
+}
+
+#comments .comments-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding: 15px 72px;
+  background: #f7f7f7;
+  -webkit-box-shadow: 3px 3px 10px rgba(4, 30, 80, 0.3);
+          box-shadow: 3px 3px 10px rgba(4, 30, 80, 0.3);
+  border-radius: 5px;
+}
+
+#comments .comments-box .user {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+#comments .comments-box .user-content {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-right: 25px;
+}
+
+#comments .comments-box .user-content .user-name {
+  font-size: 1.5em;
+}
+
+#comments .comments-box .user-content .user-role {
+  font-size: 1em;
+}
+
+#comments .comments-box .user-image {
+  margin-right: 12px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+#comments .comments-box .comment {
+  max-width: 550px;
+  position: relative;
+  font-size: 1.3em;
+  line-height: 20px;
+  background: #fff;
+  padding: 20px;
+  -webkit-box-shadow: 0 3px 6px rgba(4, 30, 80, 0.3);
+          box-shadow: 0 3px 6px rgba(4, 30, 80, 0.3);
+  border-radius: 5px;
+}
+
+#comments .comments-box .comment::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%) rotate(45deg);
+          transform: translate(-50%, -50%) rotate(45deg);
+  width: 15px;
+  height: 15px;
+  background: #fff;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 7px 6px rgba(4, 30, 80, 0.1);
+          box-shadow: 0 7px 6px rgba(4, 30, 80, 0.1);
+}
+/*# sourceMappingURL=style.css.map */

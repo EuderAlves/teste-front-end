@@ -1,0 +1,37 @@
+$blue: #041e50;
+
+@mixin flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.top {
+  background-color: $blue;
+}
+
+.headerTop {
+  color: white;
+  text-transform: uppercase;
+  max-width: 1142px;
+  height: 37px;
+
+  margin: 0 auto;
+  padding: 0 5%;
+  @include flex;
+
+  li {
+    @include flex;
+    font-size: 10px;
+    font-weight: 700;
+
+    img {
+      margin-right: 10px;
+    }
+  }
+
+  .lineVert {
+    height: 20px;
+    border-right: 1px solid rgba(white, 0.4);
+  }
+}

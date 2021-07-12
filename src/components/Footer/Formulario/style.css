@@ -1,0 +1,38 @@
+.formFooter {
+  background-color: #ffffff;
+  color: #041e50;
+  border-radius: 5px;
+  height: 249px;
+  width: 276px;
+  padding: 33px 25px;
+  text-transform: uppercase;
+}
+
+.formFooter h4 {
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.formFooter h4 span {
+  font-weight: bold;
+}
+
+.formFooter h5 {
+  font-size: 12px;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.formFooter input {
+  width: 100%;
+  position: relative;
+  padding: 9.5px 0;
+  border-bottom: 1px solid #041e50;
+  margin-bottom: 19.5px;
+}
+
+.formFooter button {
+  height: 35px;
+  padding: 10px 33px;
+}
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,51 @@
+.description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  position: absolute;
+  z-index: 2;
+  text-transform: uppercase;
+  color: white;
+  letter-spacing: 4px;
+}
+
+.description h3 {
+  position: relative;
+  text-align: center;
+  font-weight: 300;
+  font-size: 16px;
+  padding: 9.5px;
+  margin: 15.5px;
+}
+
+.description h2 {
+  font-size: 46px;
+  margin-bottom: 25px;
+}
+
+.description h2 span {
+  font-weight: 300;
+}
+
+.description .line:after {
+  content: "";
+  background: #ccc;
+  position: absolute;
+  bottom: 0;
+  right: 54.5px;
+  left: 54.5px;
+  margin: 0 auto;
+  height: 2px;
+  width: 19px;
+}
+/*# sourceMappingURL=style.css.map */

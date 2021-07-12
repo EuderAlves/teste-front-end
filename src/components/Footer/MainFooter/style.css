@@ -1,0 +1,88 @@
+.mainFooter {
+  background-color: #041e50;
+  height: 389px;
+  color: #ffffff;
+  text-transform: uppercase;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.mainFooter h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.mainFooter li {
+  margin-bottom: 2.4px;
+}
+
+.mainFooter li a {
+  color: #ffffff;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.mainFooter .navBox {
+  width: 100%;
+  max-width: 1124px;
+  padding: 0 5%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mainFooter .navBox section {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.mainFooter .navBox .firstColun,
+.mainFooter .navBox .secondColun,
+.mainFooter .navBox .thirdColun {
+  height: 186px;
+}
+
+.mainFooter .navBox .firstColun nav:first-child {
+  margin-bottom: 30px;
+}
+
+.mainFooter .navBox .secondColun .iconRedSociais a {
+  margin-right: 17px;
+}
+
+.mainFooter .navBox .thirdColun .icoCards {
+  width: 109px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 6px;
+}
+
+.mainFooter .navBox .thirdColun .iconSafety img:first-child {
+  margin-right: 9px;
+}
+/*# sourceMappingURL=style.css.map */

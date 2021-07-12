@@ -1,0 +1,40 @@
+$blue: #041e50;
+$white: #ffffff;
+
+.formFooter {
+  background-color: $white;
+  color: $blue;
+  border-radius: 5px;
+  height: 249px;
+  width: 276px;
+  padding: 33px 25px;
+  text-transform: uppercase;
+
+  h4 {
+    font-size: 14px;
+    font-weight: 400;
+
+    span {
+      font-weight: bold;
+    }
+  }
+
+  h5 {
+    font-size: 12px;
+    font-weight: 400;
+    margin-bottom: 0;
+  }
+
+  input {
+    width: 100%;
+    position: relative;
+    padding: 9.5px 0;
+    border-bottom: 1px solid $blue;
+    margin-bottom: 19.5px;
+  }
+
+  button {
+    height: 35px;
+    padding: 10px 33px;
+  }
+}

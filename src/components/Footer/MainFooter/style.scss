@@ -1,0 +1,79 @@
+$blue: #041e50;
+$white: #ffffff;
+
+.mainFooter {
+  background-color: $blue;
+  height: 389px;
+  color: $white;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  h3 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 20px;
+  }
+
+  li {
+    margin-bottom: 2.4px;
+    a {
+      color: $white;
+      font-size: 12px;
+      font-weight: 400;
+    }
+  }
+
+  .navBox {
+    width: 100%;
+    max-width: 1124px;
+    padding: 0 5%;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+
+    section {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+    }
+
+    .firstColun,
+    .secondColun,
+    .thirdColun {
+      height: 186px;
+    }
+
+    .firstColun {
+      nav:first-child {
+        margin-bottom: 30px;
+      }
+    }
+
+    .secondColun {
+      .iconRedSociais {
+        a {
+          margin-right: 17px;
+        }
+      }
+    }
+
+    .thirdColun {
+      .icoCards {
+        width: 109px;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 6px;
+      }
+
+      .iconSafety {
+        img:first-child {
+          margin-right: 9px;
+        }
+      }
+    }
+  }
+}
